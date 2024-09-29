@@ -12,7 +12,6 @@ import UserNotifications
 class AppDelegate: NSObject, NSApplicationDelegate {
     static let loopManager = LoopManager()
     static let windowDragManager = WindowDragManager()
-    static let updater = Updater()
     static var isActive: Bool = false
 
     private var launchedAsLoginItem: Bool {

@@ -15,27 +15,9 @@ class AboutConfigurationModel: ObservableObject {
 
     @Published var isHoveringOverVersionCopier = false
 
-    @Published var updateButtonTitle: String = .init(localized: "Check for updates…")
+    @Published var updateButtonTitle: String = .init(localized: "Updates Disabled")
 
     let credits: [CreditItem] = [
-        .init(
-            "Kai",
-            "Development",
-            url: .init(string: "https://github.com/mrkai77")!,
-            avatar: Image(.kai)
-        ),
-        .init(
-            "Jace",
-            "Design",
-            url: .init(string: "https://x.com/jacethings")!,
-            avatar: Image(.jace)
-        ),
-        .init(
-            "Kami",
-            "Development support",
-            url: .init(string: "https://github.com/senpaihunters")!,
-            avatar: Image(.kami)
-        ),
         .init(
             .init(localized: "Contributors on GitHub"),
             "Some features, ideas, and bug fixes",
@@ -131,7 +113,6 @@ struct CreditItem: Identifiable {
 struct AboutConfigurationView: View {
     @Environment(\.openURL) private var openURL
     @StateObject private var model = AboutConfigurationModel()
-    @ObservedObject private var updater = AppDelegate.updater
     @Default(.timesLooped) var timesLooped
 
     var body: some View {
@@ -174,42 +155,11 @@ struct AboutConfigurationView: View {
         }
 
         LuminareSection {
-            Button {
-                Task {
-                    await updater.fetchLatestInfo()
-
-                    if updater.updateState == .available {
-                        await updater.showUpdateWindow()
-                    } else {
-                        // Use getNextUpToDateText to get the next text
-                        model.updateButtonTitle = model.getNextUpToDateText()
-
-                        // Reset the title after 2 seconds
-                        let currentTitle = model.updateButtonTitle
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                            if model.updateButtonTitle == currentTitle {
-                                model.updateButtonTitle = .init(localized: "Check for updates…")
-                            }
-                        }
-                    }
-                }
-            } label: {
+            Button {} label: {
                 Text(model.updateButtonTitle)
                     .contentTransition(.numericText())
                     .animation(LuminareSettingsWindow.animation, value: model.updateButtonTitle)
-            }
-            .onAppear {
-                if updater.updateState == .available {
-                    model.updateButtonTitle = .init(localized: "Update…")
-                }
-            }
-            .onChange(of: updater.updateState) { _ in
-                if updater.updateState == .available {
-                    model.updateButtonTitle = .init(localized: "Update…")
-                }
-            }
-
-            LuminareToggle("Include development versions", isOn: $updater.includeDevelopmentVersions)
+            }.disabled(true)
         }
 
         LuminareSection {

@@ -41,10 +41,10 @@ enum WindowDirection: String, CaseIterable, Identifiable, Codable {
     case larger = "Larger", smaller = "Smaller"
 
     // Shrink
-    case shrinkTop = "ShrinkTop", shrinkBottom = "ShrinkBottom", shrinkRight = "ShrinkRight", shrinkLeft = "ShrinkLeft"
+    case shrinkTop = "ShrinkTop", shrinkBottom = "ShrinkBottom", shrinkRight = "ShrinkRight", shrinkLeft = "ShrinkLeft", shrinkLR = "ShrinkLR", shrinkTB = "ShrinkTB"
 
     // Grow
-    case growTop = "GrowTop", growBottom = "GrowBottom", growRight = "GrowRight", growLeft = "GrowLeft"
+    case growTop = "GrowTop", growBottom = "GrowBottom", growRight = "GrowRight", growLeft = "GrowLeft", growLR = "GrowLR", growTB = "GrowTB"
 
     // Move
     case moveUp = "MoveUp", moveDown = "MoveDown", moveRight = "MoveRight", moveLeft = "MoveLeft"
@@ -60,8 +60,8 @@ enum WindowDirection: String, CaseIterable, Identifiable, Codable {
     static var verticalThirds: [WindowDirection] { [.topThird, .topTwoThirds, .verticalCenterThird, .bottomTwoThirds, .bottomThird] }
     static var screenSwitching: [WindowDirection] { [.nextScreen, .previousScreen] }
     static var sizeAdjustment: [WindowDirection] { [.larger, .smaller] }
-    static var shrink: [WindowDirection] { [.shrinkTop, .shrinkBottom, .shrinkRight, .shrinkLeft] }
-    static var grow: [WindowDirection] { [.growTop, .growBottom, .growRight, .growLeft] }
+    static var shrink: [WindowDirection] { [.shrinkTop, .shrinkBottom, .shrinkRight, .shrinkLeft, .shrinkLR, .shrinkTB] }
+    static var grow: [WindowDirection] { [.growTop, .growBottom, .growRight, .growLeft, .growLR, .growTB] }
     static var move: [WindowDirection] { [.moveUp, .moveDown, .moveRight, .moveLeft] }
     static var more: [WindowDirection] { [.initialFrame, .undo, .custom, .cycle] }
 

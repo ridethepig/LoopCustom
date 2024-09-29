@@ -200,6 +200,10 @@ private extension WindowAction {
                 LoopManager.sidesToAdjust = .bottom
             case .shrinkLeft, .growLeft:
                 LoopManager.sidesToAdjust = .leading
+            case .shrinkLR, .growLR:
+                LoopManager.sidesToAdjust = [.leading, .trailing]
+            case .shrinkTB, .growTB:
+                LoopManager.sidesToAdjust = [.top, .bottom]
             default:
                 LoopManager.sidesToAdjust = .trailing
             }

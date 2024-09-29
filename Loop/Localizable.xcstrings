@@ -18360,6 +18360,9 @@
         }
       }
     },
+    "Updates Disabled" : {
+
+    },
     "Use coordinates" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -19783,6 +19786,23 @@
         }
       }
     },
+    "Window Direction/Name: Grow Horizontal" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grow Horizontal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扩张左右"
+          }
+        }
+      }
+    },
     "Window Direction/Name: Grow Left" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -19992,6 +20012,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "擴張頂部"
+          }
+        }
+      }
+    },
+    "Window Direction/Name: Grow Vertical" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Grow Vertical"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "扩张上下"
           }
         }
       }
@@ -21487,6 +21524,23 @@
         }
       }
     },
+    "Window Direction/Name: Shrink Horizontal" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Shrink Horizontal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收缩左右"
+          }
+        }
+      }
+    },
     "Window Direction/Name: Shrink Left" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -21696,6 +21750,23 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "壓縮頂部"
+          }
+        }
+      }
+    },
+    "Window Direction/Name: Shrink Vertical" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Shrink Vertical"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收缩上下"
           }
         }
       }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1530"
+   LastUpgradeVersion = "1600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A8E59C34297F5E9A0064D4BA"
-               BuildableName = "Loop.app"
-               BlueprintName = "Loop"
-               ReferencedContainer = "container:Loop.xcodeproj">
+               BuildableName = "LoopCustom.app"
+               BlueprintName = "LoopCustom"
+               ReferencedContainer = "container:LoopCustom.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8E59C34297F5E9A0064D4BA"
-            BuildableName = "Loop.app"
-            BlueprintName = "Loop"
-            ReferencedContainer = "container:Loop.xcodeproj">
+            BuildableName = "LoopCustom.app"
+            BlueprintName = "LoopCustom"
+            ReferencedContainer = "container:LoopCustom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A8E59C34297F5E9A0064D4BA"
-            BuildableName = "Loop.app"
-            BlueprintName = "Loop"
-            ReferencedContainer = "container:Loop.xcodeproj">
+            BuildableName = "LoopCustom.app"
+            BlueprintName = "LoopCustom"
+            ReferencedContainer = "container:LoopCustom.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -10,9 +10,6 @@
 		0A6DC3EB2BB869DE002AB05F /* WindowAction+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DC3EA2BB869DE002AB05F /* WindowAction+Image.swift */; };
 		0AFE802E2BB98E81009CF06F /* WindowDirection+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFE802D2BB98E81009CF06F /* WindowDirection+LocalizedString.swift */; };
 		4C0F2ACF2C3CFD09006CB34D /* RectangleTranslationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0F2ACE2C3CFD09006CB34D /* RectangleTranslationLayer.swift */; };
-		4C6B93E72C1DCF6E00AFF832 /* TheLoopTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B93E12C1DCF6E00AFF832 /* TheLoopTimes.swift */; };
-		4C6B93E82C1DCF6E00AFF832 /* Updater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B93E22C1DCF6E00AFF832 /* Updater.swift */; };
-		4C6B93E92C1DCF6E00AFF832 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B93E32C1DCF6E00AFF832 /* UpdateView.swift */; };
 		4CD883A42C30F0D7009A132A /* WallpaperColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD883A32C30F0D7009A132A /* WallpaperColors.swift */; };
 		A8055EC22AFEDE0B00459D13 /* Keycorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8055EC12AFEDE0B00459D13 /* Keycorder.swift */; };
 		A80900D52AA3F9F30085C63B /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80900D32AA3F9F20085C63B /* VisualEffectView.swift */; };
@@ -96,9 +93,6 @@
 		4C0F2ACE2C3CFD09006CB34D /* RectangleTranslationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleTranslationLayer.swift; sourceTree = "<group>"; };
 		4C311C1A2C40B4C0003C99D0 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C5853252C4D4FD500FD0FC4 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4C6B93E12C1DCF6E00AFF832 /* TheLoopTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheLoopTimes.swift; sourceTree = "<group>"; };
-		4C6B93E22C1DCF6E00AFF832 /* Updater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updater.swift; sourceTree = "<group>"; };
-		4C6B93E32C1DCF6E00AFF832 /* UpdateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
 		4CD883A32C30F0D7009A132A /* WallpaperColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallpaperColors.swift; sourceTree = "<group>"; };
 		A80521312A84878200BF7E22 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		A8055EC12AFEDE0B00459D13 /* Keycorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycorder.swift; sourceTree = "<group>"; };
@@ -171,11 +165,11 @@
 		A8D6D3002B6C894C0061B11F /* PaddingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModel.swift; sourceTree = "<group>"; };
 		A8D6D3022B6C8D750061B11F /* PaddingPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingPreviewView.swift; sourceTree = "<group>"; };
 		A8D6D3042B6C92F20061B11F /* WallpaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperView.swift; sourceTree = "<group>"; };
-		A8E59C35297F5E9A0064D4BA /* Loop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8E59C35297F5E9A0064D4BA /* LoopCustom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoopCustom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E59C38297F5E9A0064D4BA /* LoopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopApp.swift; sourceTree = "<group>"; };
 		A8E59C3C297F5E9B0064D4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E59C3F297F5E9B0064D4BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A8E59C41297F5E9B0064D4BA /* Loop.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Loop.entitlements; sourceTree = "<group>"; };
+		A8E59C41297F5E9B0064D4BA /* LoopCustom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoopCustom.entitlements; sourceTree = "<group>"; };
 		A8E59C49297F98670064D4BA /* RadialMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenuController.swift; sourceTree = "<group>"; };
 		A8E59C4F298045D90064D4BA /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
 		A8E6D1FC2A4155DC005751D4 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -205,17 +199,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C6B93E42C1DCF6E00AFF832 /* Updater */ = {
-			isa = PBXGroup;
-			children = (
-				4C6B93E22C1DCF6E00AFF832 /* Updater.swift */,
-				4C6B93E32C1DCF6E00AFF832 /* UpdateView.swift */,
-				4C6B93E12C1DCF6E00AFF832 /* TheLoopTimes.swift */,
-			);
-			name = Updater;
-			path = Loop/Updater;
-			sourceTree = SOURCE_ROOT;
-		};
 		A80900D12AA3F9F20085C63B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,7 +406,7 @@
 		A8E59C36297F5E9A0064D4BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8E59C35297F5E9A0064D4BA /* Loop.app */,
+				A8E59C35297F5E9A0064D4BA /* LoopCustom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -437,7 +420,6 @@
 				A85CB5842ACFA5F700BF63E6 /* AppDelegate.swift */,
 				A8BC77782C0EB4DD008E2EDA /* AppDelegate+UNNotifications.swift */,
 				A893D3622BD3298700063510 /* Luminare */,
-				4C6B93E42C1DCF6E00AFF832 /* Updater */,
 				A864F4662AA65EC200579738 /* Window Management */,
 				A8330ABB2A3AC05200673C8D /* Managers */,
 				A88265FB29808E0D00BCB197 /* Radial Menu */,
@@ -445,7 +427,7 @@
 				A80900D12AA3F9F20085C63B /* Utilities */,
 				A8330AD52A3AC29C00673C8D /* Extensions */,
 				A8E59C3C297F5E9B0064D4BA /* Assets.xcassets */,
-				A8E59C41297F5E9B0064D4BA /* Loop.entitlements */,
+				A8E59C41297F5E9B0064D4BA /* LoopCustom.entitlements */,
 				A8F1E9672C253F8D00AAF871 /* InfoPlist.strings */,
 				A8F1E9652C253F5B00AAF871 /* Localizable.xcstrings */,
 				A8E59C3E297F5E9B0064D4BA /* Preview Content */,
@@ -464,9 +446,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8E59C34297F5E9A0064D4BA /* Loop */ = {
+		A8E59C34297F5E9A0064D4BA /* LoopCustom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8E59C44297F5E9B0064D4BA /* Build configuration list for PBXNativeTarget "Loop" */;
+			buildConfigurationList = A8E59C44297F5E9B0064D4BA /* Build configuration list for PBXNativeTarget "LoopCustom" */;
 			buildPhases = (
 				4C80AE1E2C29C515006E83A3 /* Run SwiftFormat */,
 				A8E59C31297F5E9A0064D4BA /* Sources */,
@@ -480,13 +462,13 @@
 			fileSystemSynchronizedGroups = (
 				A800418D2C7C118E005AD0D3 /* Searchable Popover Picker */,
 			);
-			name = Loop;
+			name = LoopCustom;
 			packageProductDependencies = (
 				A8DCC97A2980D5F500D41065 /* Defaults */,
 				A89E60912C939BEB00A05AD5 /* Luminare */,
 			);
 			productName = WindowManager;
-			productReference = A8E59C35297F5E9A0064D4BA /* Loop.app */;
+			productReference = A8E59C35297F5E9A0064D4BA /* LoopCustom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -497,14 +479,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					A8E59C34297F5E9A0064D4BA = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = A8E59C30297F5E9A0064D4BA /* Build configuration list for PBXProject "Loop" */;
+			buildConfigurationList = A8E59C30297F5E9A0064D4BA /* Build configuration list for PBXProject "LoopCustom" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -531,7 +513,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8E59C34297F5E9A0064D4BA /* Loop */,
+				A8E59C34297F5E9A0064D4BA /* LoopCustom */,
 			);
 		};
 /* End PBXProject section */
@@ -615,7 +597,6 @@
 				A82B1AEE2BD352A100E2F3F9 /* AccentColorConfiguration.swift in Sources */,
 				A8D5A7D82A913862004EA5BB /* DirectionSelectorCircleSegment.swift in Sources */,
 				A89307312BAE6D0100566AEE /* CustomWindowActionUnit.swift in Sources */,
-				4C6B93E72C1DCF6E00AFF832 /* TheLoopTimes.swift in Sources */,
 				A83667C82A3D7D910001D630 /* AXUIElement+Extensions.swift in Sources */,
 				A87F78962BAE333C0087B1DE /* CustomWindowActionPositionMode.swift in Sources */,
 				A8330AD42A3AC27600673C8D /* WindowDirection.swift in Sources */,
@@ -630,7 +611,6 @@
 				A8D6D3052B6C92F20061B11F /* WallpaperView.swift in Sources */,
 				A81D8D0C2C06950000188E12 /* LuminareManager.swift in Sources */,
 				A864F4682AA660CD00579738 /* WindowDragManager.swift in Sources */,
-				4C6B93E82C1DCF6E00AFF832 /* Updater.swift in Sources */,
 				A8330ACF2A3AC1E900673C8D /* View+Extensions.swift in Sources */,
 				A8427E662C02594E00F20759 /* ExcludedAppsConfiguration.swift in Sources */,
 				A82521EE29E235AC00139654 /* PermissionsManager.swift in Sources */,
@@ -648,7 +628,6 @@
 				A8F0125B2AEDD7660017307F /* WindowAction.swift in Sources */,
 				A8BC77792C0EB4DD008E2EDA /* AppDelegate+UNNotifications.swift in Sources */,
 				A85B560E2AAAD62C00386ACE /* EventMonitor.swift in Sources */,
-				4C6B93E92C1DCF6E00AFF832 /* UpdateView.swift in Sources */,
 				A8A2ABE72A3FB0370067B5A9 /* KeybindMonitor.swift in Sources */,
 				A893D3642BD3299000063510 /* IconConfiguration.swift in Sources */,
 			);
@@ -680,6 +659,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -714,6 +694,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -745,6 +726,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -779,6 +761,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -791,6 +774,7 @@
 				MARKETING_VERSION = "$(VERSION)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -803,18 +787,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Developer";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Loop/LoopCustom.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Loop/Preview Content\"";
-				DEVELOPMENT_TEAM = 5F967GYF84;
+				DEVELOPMENT_TEAM = LBA2NW8DA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Loop;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCustom;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Loop";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -823,7 +808,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MrKai77.Loop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MrKai77.LoopDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -835,21 +820,22 @@
 		A8E59C46297F5E9B0064D4BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Classic";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Developer";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Loop/LoopCustom.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Loop/Preview Content\"";
-				DEVELOPMENT_TEAM = 5F967GYF84;
+				DEVELOPMENT_TEAM = LBA2NW8DA8;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Loop;
+				INFOPLIST_KEY_CFBundleDisplayName = LoopCustom;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2024 Loop";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -858,7 +844,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MrKai77.Loop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MrKai77.LoopDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -870,7 +856,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8E59C30297F5E9A0064D4BA /* Build configuration list for PBXProject "Loop" */ = {
+		A8E59C30297F5E9A0064D4BA /* Build configuration list for PBXProject "LoopCustom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E59C42297F5E9B0064D4BA /* Debug */,
@@ -879,7 +865,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8E59C44297F5E9B0064D4BA /* Build configuration list for PBXNativeTarget "Loop" */ = {
+		A8E59C44297F5E9B0064D4BA /* Build configuration list for PBXNativeTarget "LoopCustom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8E59C45297F5E9B0064D4BA /* Debug */,
